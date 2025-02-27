@@ -25,6 +25,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2td0lnN0ilEtFrm6rCiH3rLCh9Y" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -33,13 +37,19 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Downloaded.Files.Path.Enabled": "false",
+    "Gradle.TestLoginUserCorrectEmailAndPassword.executor": "Run",
+    "Gradle.TestLoginUserCorrectEmailAndPassword.testLoginUserCorrectEmailAndPassword (1).executor": "Debug",
+    "Gradle.TestLoginUserCorrectEmailAndPassword.testLoginUserCorrectEmailAndPassword.executor": "Run",
+    "Gradle.TestLoginUserIncorrectEmailPassword.testLoginUserIncorrectEmailPassword.executor": "Run",
+    "Gradle.TestLogoutUser.testLogoutUser.executor": "Run",
     "Gradle.Tests in 'Reto_selenium_POM.test'.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Programacion avanzada/Reto_selenium_POM"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -47,8 +57,8 @@
       <recent name="D:\Programacion avanzada\Programacion Java\Reto_selenium_POM\src\test\resources\chromedriver" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Tests in 'Reto_selenium_POM.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.TestLogoutUser.testLogoutUser">
+    <configuration name="TestLoginUserCorrectEmailAndPassword" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -60,6 +70,104 @@
         <option name="taskNames">
           <list>
             <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;TestLoginUserCorrectEmailAndPassword&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestLoginUserCorrectEmailAndPassword.testLoginUserCorrectEmailAndPassword (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;TestLoginUserCorrectEmailAndPassword.testLoginUserCorrectEmailAndPassword&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestLoginUserCorrectEmailAndPassword.testLoginUserCorrectEmailAndPassword" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;test.TestLoginUserCorrectEmailAndPassword.testLoginUserCorrectEmailAndPassword&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestLoginUserIncorrectEmailPassword.testLoginUserIncorrectEmailPassword" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;TestLoginUserIncorrectEmailPassword.testLoginUserIncorrectEmailPassword&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestLogoutUser.testLogoutUser" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;TestLogoutUser.testLogoutUser&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -72,7 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Tests in 'Reto_selenium_POM.test'" />
+        <item itemvalue="Gradle.TestLogoutUser.testLogoutUser" />
+        <item itemvalue="Gradle.TestLoginUserIncorrectEmailPassword.testLoginUserIncorrectEmailPassword" />
+        <item itemvalue="Gradle.TestLoginUserCorrectEmailAndPassword" />
+        <item itemvalue="Gradle.TestLoginUserCorrectEmailAndPassword.testLoginUserCorrectEmailAndPassword (1)" />
+        <item itemvalue="Gradle.TestLoginUserCorrectEmailAndPassword.testLoginUserCorrectEmailAndPassword" />
       </list>
     </recent_temporary>
   </component>
